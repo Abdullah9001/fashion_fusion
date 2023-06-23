@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navber />
     <Nuxt />
   </div>
 </template>
