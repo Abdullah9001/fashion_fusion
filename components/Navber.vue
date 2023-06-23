@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <div class="navber">
-      <h1>Fashion Fusion</h1>
+      <h1><NuxtLink to="/">Fashion Fusion</NuxtLink></h1>
       <div class="navber-link">
         <li>
           <NuxtLink to="/">Home</NuxtLink>
@@ -60,7 +60,7 @@ li {
   padding: 1.5rem 1.5rem;
 }
 
-a {
+li a {
   font-size: 1rem;
   color: #fff;
   font-style: bold;

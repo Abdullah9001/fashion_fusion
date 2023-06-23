@@ -14,7 +14,6 @@
 <script>
 export default {
   props: ['error'],
-  layout: 'error',
 }
 </script>
 
@@ -58,6 +57,8 @@ a {
   background-color: rgb(0, 0, 0);
   border-radius: 50px 0 0 0;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 img {

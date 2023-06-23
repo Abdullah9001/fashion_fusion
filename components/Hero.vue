@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hero">
     <h1>Hello</h1>
   </div>
 </template>
@@ -8,4 +8,10 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.hero {
+}
+h1 {
+  color: white;
+}
+</style>
