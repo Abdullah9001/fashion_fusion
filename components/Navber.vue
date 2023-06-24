@@ -43,9 +43,8 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Belanosima', sans-serif;
   font-size: 2rem;
-  letter-spacing: -2.3px;
 }
 
 .navber-link {
@@ -64,7 +63,7 @@ li a {
   font-size: 1rem;
   color: #fff;
   font-style: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   text-decoration: none;
 }

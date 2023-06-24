@@ -14,6 +14,7 @@
 <script>
 export default {
   props: ['error'],
+  layout: 'empty',
 }
 </script>
 
@@ -44,7 +45,7 @@ export default {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   color: aquamarine;
   text-shadow: 2px 1px rgb(49, 111, 90);
@@ -57,7 +58,7 @@ a {
   background-color: rgb(0, 0, 0);
   border-radius: 50px 0 0 0;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
 
