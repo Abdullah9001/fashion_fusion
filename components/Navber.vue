@@ -36,7 +36,7 @@
       <ul class="mobile-nav" v-show="mobileNav">
         <NuxtLink class="link" to="/">Home</NuxtLink>
         <NuxtLink class="link" to="/about">About</NuxtLink>
-        <NuxtLink class="link" to="/product">Product</NuxtLink>
+        <NuxtLink class="link" to="/products">Product</NuxtLink>
         <NuxtLink class="link" to="/dashboard">Dashboard</NuxtLink>
       </ul>
     </transition>

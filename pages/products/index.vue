@@ -191,4 +191,38 @@ li {
   border-radius: 20px 20px 0 0;
   z-index: -100;
 }
+
+@media (max-width: 1000px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    grid-gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .products {
+    display: block;
+  }
+  .search {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .category {
+    margin: 5px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search p {
+    display: none;
+  }
+  .category img {
+    display: none;
+  }
+}
 </style>
