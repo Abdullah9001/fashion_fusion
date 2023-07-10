@@ -37,6 +37,7 @@ export default {
   justify-content: center;
   margin: auto;
   background-color: #000000;
+  padding: 1rem 0;
 }
 h1 {
   background: #13cfcf;
@@ -52,10 +53,11 @@ h1 {
   padding: 1rem;
 }
 .icon {
-  padding: 6px;
-  margin: 6px;
+  padding: 8px;
+  margin: 10px 15px;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .footer-icon {
@@ -65,7 +67,7 @@ h1 {
   justify-content: center;
 }
 .footer-img {
-  width: 20px;
-  height: 15px;
+  width: 25px;
+  height: 20px;
 }
 </style>

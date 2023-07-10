@@ -2,6 +2,61 @@
   {
     "id": 1,
     "name": "Silky Smooth Beats",
+    "onSale": true,
+    "tags": ["Headphone", "People"],
+    "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ut.",
+    "price": 20000,
+    "selPrice": null,
+    "ratings": 4
+  },
+  {
+    "id": 2,
+    "name": "Lady Luck Is Smiling",
+    "onSale": false,
+    "tags": ["Perfume", "women"],
+    "image": "https://images.pexels.com/photos/1961792/pexels-photo-1961792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ut.",
+    "price": 3500,
+    "selPrice": 3000,
+    "ratings": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Green Nike Zoom",
+    "onSale": false,
+    "tags": ["Nike", "Men"],
+    "image": "https://images.pexels.com/photos/1456705/pexels-photo-1456705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ut.",
+    "price": 10500,
+    "selPrice": 9000,
+    "ratings": 4.5
+  },
+  {
+    "id": 4,
+    "name": "New Home Living Room Set",
+    "onSale": true,
+    "tags": ["Home", "Pretty"],
+    "image": "https://images.pexels.com/photos/6947283/pexels-photo-6947283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ut.",
+    "price": 70000,
+    "selPrice": null,
+    "ratings": 4
+  },
+  {
+    "id": 5,
+    "name": "Classic Man Watch",
+    "onSale": true,
+    "tags": ["Watch", "Men"],
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ut.",
+    "price": 20000,
+    "selPrice": 15000,
+    "ratings": 3.5
+  },
+  {
+    "id": 6,
+    "name": "Silky Smooth Beats",
     "onSale": false,
     "tags": ["Headphone", "People"],
     "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -11,7 +66,7 @@
     "ratings": 4.0
   },
   {
-    "id": 2,
+    "id": 7,
     "name": "Lady Luck Is Smiling",
     "onSale": true,
     "tags": ["Perfume", "Women"],
@@ -22,7 +77,7 @@
     "ratings": 4.5
   },
   {
-    "id": 3,
+    "id": 8,
     "name": "Green Nike Zoom",
     "onSale": true,
     "tags": ["Nike", "Men"],
@@ -33,7 +88,7 @@
     "ratings": 4.5
   },
   {
-    "id": 4,
+    "id": 9,
     "name": "New Home Living Room Set",
     "onSale": false,
     "tags": ["Home", "Pretty"],
@@ -41,10 +96,10 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
     "price": 100500,
     "salePrice": null,
-    "ratings": 4
+    "ratings": 4.6
   },
   {
-    "id": 5,
+    "id": 10,
     "name": "Classic Man Watch",
     "onSale": true,
     "tags": ["Watch", "Men"],
@@ -53,5 +108,38 @@
     "price": 50500,
     "salePrice": 40000,
     "ratings": 3.5
+  },
+  {
+    "id": 11,
+    "name": "Perfect Man T-Shirt",
+    "onSale": false,
+    "tags": ["T-Shirt", "Men"],
+    "image": "https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
+    "price": 1040,
+    "salePrice": 2040,
+    "ratings": 4.5
+  },
+  {
+    "id": 12,
+    "name": "Man Jeans Pant",
+    "onSale": true,
+    "tags": ["Jeans", "Men"],
+    "image": "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
+    "price": 63626,
+    "salePrice": 26236,
+    "ratings": 4.0
+  },
+  {
+    "id": 13,
+    "name": "Classic Man Sunglass",
+    "onSale": false,
+    "tags": ["Sunglass", "Men"],
+    "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
+    "price": 37637,
+    "salePrice": 763373,
+    "ratings": 3.0
   }
 ]

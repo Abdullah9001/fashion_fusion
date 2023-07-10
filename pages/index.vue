@@ -1,22 +1,27 @@
 <template>
   <div class="hero">
     <Hero />
+    <HeroProduct :products="products" />
+    <Features />
+    <Banner />
+    <NewsLetter />
   </div>
 </template>
 
 <script>
+import Banner from '~/components/Banner.vue'
+import Features from '~/components/Features.vue'
 export default {
+  components: { Features, Banner },
   name: 'IndexPage',
   async created() {
-    this.sale_items = await this.$content('products')
+    this.products = await this.$content('products')
       .where({ onSale: true })
       .fetch()
-    this.products = await this.$content('products').fetch()
   },
   data() {
     return {
       products: null,
-      sale_items: null,
     }
   },
 }
